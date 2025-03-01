@@ -143,25 +143,21 @@ footer {
 /* Desktop View */
 @media (min-width: 1000px) {
 
-    .header-container {
-        display: flex;
-        justify-content: center;
-    }
-    #container {
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: auto;
-        display:flex
-    }
+#container {
+    display: flex;
+    flex-direction: row; 
+}
 
-    main {
-        flex: 2;
-    }
+main {
+    flex: 2;  
+}
 
-    aside {
-        flex: 1;
-        width: auto;
-        height: auto;
-    }
+aside {
+    flex: 1;
+    margin-top: 0;
+    max-width: 400px;
+    margin-left: -32px; 
+    margin-right: -32px;
+}
+
 }
